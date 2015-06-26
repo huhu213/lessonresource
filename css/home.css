@@ -1,0 +1,288 @@
+@charset "utf-8";
+*{
+	margin:0px auto;padding:0px;
+	font-family: "微软雅黑";
+}
+/*body/*{text-align:center;}*/*/
+
+
+#lineOne{
+	width:auto;
+	height:85px;
+	border:0px solid black;
+	background:#ffffff;
+}
+#lineTwo{
+	width:auto;
+	height:364px;
+	border:0px solid black;
+	background:#AED378;
+}
+#lineThree{
+	width:auto;
+	height:364px;
+	border:0px solid black;
+	background:#F7F7F7;
+}
+#lineFour{
+	width:auto;
+	height:auto;
+	border:0px solid black;
+	background:#58A2D9;
+}
+#lineFive{
+	width:auto;
+	height:120px;
+	border:0px solid black;
+	background:#606060;
+}
+#headLogo{
+	width:1200px;
+	height:85px;
+	border:0px solid black;
+	background:#ffffff;
+	text-align: left;
+	}
+#logoLeft{
+	width: 400px;
+	margin: 5px;
+}
+
+.nr{
+	width:1200px;
+	height:364px;
+	border:0px solid black;
+	text-align: left;
+	}
+#one{
+	height: 377px;
+	width: 100%;
+	background-color: #52BBB7;
+	text-align: center;
+}
+#two{
+	height: 377px;
+	width: 100%;
+	background-color: #F7E895;
+	text-align: center;
+}
+#three{
+	height: 377px;
+	width: 100%;
+	background-color: #8DC7EC;
+	text-align: center;
+}
+#slideBox{
+	position:relative; 
+	width: 850px;
+	height: 100%;
+	margin: 0;
+	margin-left: 5px;
+	float: left;
+	overflow:hidden;
+}
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+
+.dots{
+	height: 20px;
+	float: left;
+	position: absolute;
+  	left: 0;
+  	right: 0;
+  	bottom: 4px;
+  	text-align: center;
+}
+
+.dots li{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+}
+.banner .dots .active{
+	background: #FFFFFF;
+}
+.dot{
+	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+.loginBox{
+	width: 330px;
+	height: 100%;
+	margin: 0px 0px;
+	float: left;
+	background-color: #769149;
+}
+.inputContainer{
+	position: relative;
+}
+.inputContainer img{
+	position: absolute;
+	left:25px;
+	top:4px;
+	width:25px;
+}
+#userSelect{
+	width: 304px;
+	height: 70px;
+	background-color: #16A085;
+	margin:0px 15px;
+}
+
+/*#userSelect ul{
+	padding-bottom: 10px;
+}*/
+
+#userSelect li{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	width: 98px;
+	height: 60px;
+	margin-right: 3px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 22px;
+	font-weight: 100;
+	letter-spacing: 14px;
+	text-indent: 5px;
+	cursor: pointer;
+}
+
+.loginInfo{
+	width: 303px;
+	height: 270px;
+	background-color: #FFFFFF;
+	margin:0px 15px;
+}
+
+.contentBox{
+	width: 280px;
+	height: 150px;
+	padding-top: 35px;
+}
+
+.loginInfo input{
+	width: 240px;
+	height: 28px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border-color: #DDDDDD;
+	border-style: solid;
+	text-indent: 30px;
+}
+
+.loginInfo label{
+	font-size: 16px;
+}
+.loginInfo a{
+	margin-left:30px;
+	font-size: 16px;
+}
+#checkBox{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+#validCode{
+	width: 100px;
+}
+
+.loginBtn{
+	width: 200px;
+	text-align: center;
+	letter-spacing: 30px;
+	text-indent: 20px;
+	margin-top: 28px;
+	font-size: 16px;
+}
+.videoBox{
+	width: 428px;
+	height: 349px;
+	margin: 5px 5px;
+	float: left;
+}
+
+.textBox{
+	width: 380px;
+	height: 349px;
+	margin: 5px 5px;
+	float: left;
+}
+.textContent{
+	width: 330px;
+	height: 300px;
+	margin-top: 60px;	
+	margin-left: 35px;
+}
+.textContent h5{
+	 font-weight: 200;
+	 font-size: 26px;
+}
+
+.textContent a{
+	 font-size: 16px;
+	 font-weight: 100;
+}
+
+.statisticBox{
+	width: 360px;
+	height: 349px;
+	margin: 5px 5px;
+	float: left;
+}
+.staticticContent{
+	width: 310px;
+	height: 260px;
+	margin:40px 40px;
+	border: 1px solid #B2BCC5;
+	background-color: #E5E9EA;
+}
+.staticticContent h5{
+	font-weight: 200;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.staticticContent p{
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+
+.footBox{
+	width: 1200px;
+	height: 120px;
+}
+.footTextBox{
+	padding-top: 20px;
+	width: 950px;
+	height: 100px;
+}
+
+.footInfo{
+	font-size:12px;
+	color:#ffffff;
+	border:0px solid black;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.ol {
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
