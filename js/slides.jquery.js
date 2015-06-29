@@ -41,6 +41,7 @@
 (function(a) {
     var color = ["#2587BB", "#F49871", "#96D5EE", "#ED87B7",  "#8A6CAC",  "#DAC1A0", "#AED378"]
 	var loginColor = ["#123587", "#B3723D", "#1D8E9B", "#A41C72", "#775677", "#A59356", "#769149"]
+	
     a.fn.slides = function(b) {
         return b = a.extend({}, a.fn.slides.option, b), this.each(function() {
             function w(g, h, i) {
@@ -57,19 +58,11 @@
                             k = parseInt(i, 10), l = a("." + b.paginationClass + " li." + b.currentClass + " a", c).attr("href").match("[^#/]+$"), k > l ? (r = f * 2, g = -f * 2) : (r = 0, g = 0), n = k
                     }
 //                  background-ground changed when slides
-                     if(l == 6){
-                     	setTimeout(function(){
-                     		$("#lineTwo").css("background", color[0]);
-                     		$(".loginBox").css("background-color", loginColor[0]);
-                     	},350)
-                     	
-                     }
-                     else{
-                     	setTimeout(function(){
-                     		$("#lineTwo").css("background", color[l+1]);
-                     		$(".loginBox").css("background-color", loginColor[l+1]);  
-                     	},350)
-                     }            
+                    console.log(k);
+                 	setTimeout(function(){
+                 		$("#lineTwo").css("background", color[k]);
+                 		$(".loginBox").css("background-color", loginColor[k]);  
+                 	},150)         
                 }
                     
                     h === "fade" ? b.crossfade ? d.children(":eq(" + k + ")", c).css({zIndex: 10}).fadeIn(b.fadeSpeed, b.fadeEasing, function() {
@@ -130,7 +123,7 @@
             })), b.generateNextPrev && (a("." + b.container, c).after('<a href="#" class="' + b.prev + '">Prev</a>'), a("." + b.prev, c).after('<a href="#" class="' + b.next + '">Next</a>')), a("." + b.next, c).click(function(a) {
                 a.preventDefault(), b.play && y(), w("next", i)
             }), a("." + b.prev, c).click(function(a) {
-                a.preventDefault(), b.play && y(), w("prev", i)
+                a.preventDefault(), b.play && y(), w("prev", i)  
             }), b.generatePagination ? (b.prependPagination ? c.prepend("<ul class=" + b.paginationClass + "></ul>") : c.append("<ul class=" + b.paginationClass + "></ul>"), d.children().each(function() {
                 a("." + b.paginationClass, c).append('<li><a href="#' + m + '">' + (m + 1) + "</a></li>"), m++
             })) : a("." + b.paginationClass + " li a", c).each(function() {

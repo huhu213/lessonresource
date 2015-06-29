@@ -101,6 +101,7 @@
 	top:4px;
 	width:25px;
 }
+
 #userSelect{
 	width: 304px;
 	height: 70px;
@@ -136,6 +137,21 @@
 	width: 280px;
 	height: 150px;
 	padding-top: 35px;
+}
+.contentBox a{
+	color: #000000;
+	text-decoration: none;;
+}
+.contentBox a:link{
+	color: #000000;
+	text-decoration: none;
+}
+.contentBox a:hover{
+	color: #16A085;
+	text-decoration: none;
+}
+.contentBox a:active{
+	color: #16A085;
 }
 
 .loginInfo input{
@@ -195,12 +211,13 @@
 .textContent{
 	width: 330px;
 	height: 300px;
-	margin-top: 60px;	
+	margin-top: 50px;	
 	margin-left: 35px;
 }
 .textContent h5{
 	 font-weight: 200;
 	 font-size: 26px;
+	 margin-bottom: 15px;
 }
 
 .textContent a{
@@ -209,7 +226,9 @@
 }
 
 .textContent p{
-	letter-spacing: 2px;
+	letter-spacing: 5px;
+	font-size: 17px;
+	line-height: 30px;
 }
 
 .statisticBox{
