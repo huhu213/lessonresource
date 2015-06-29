@@ -208,6 +208,10 @@
 	 font-weight: 100;
 }
 
+.textContent p{
+	letter-spacing: 2px;
+}
+
 .statisticBox{
 	width: 360px;
 	height: 349px;
