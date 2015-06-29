@@ -44,7 +44,7 @@ $("#slides").slides({
 		var index = $(this).index();
 		$(".themes").animate({left:-mw*index,opacity:1},500);
 	})
-	
+	//background-color changed when dots clicked
 	var $li = $(".pagination li a");
 	$li.each(function(i){
 		$li.eq(i).click(function(){

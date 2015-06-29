@@ -56,7 +56,7 @@
                         case "pagination":
                             k = parseInt(i, 10), l = a("." + b.paginationClass + " li." + b.currentClass + " a", c).attr("href").match("[^#/]+$"), k > l ? (r = f * 2, g = -f * 2) : (r = 0, g = 0), n = k
                     }
-//                  console.log(l)
+//                  background-ground changed when slides
                      if(l == 6){
                      	setTimeout(function(){
                      		$("#lineTwo").css("background", color[0]);
