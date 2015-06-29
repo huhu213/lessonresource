@@ -58,7 +58,6 @@
                             k = parseInt(i, 10), l = a("." + b.paginationClass + " li." + b.currentClass + " a", c).attr("href").match("[^#/]+$"), k > l ? (r = f * 2, g = -f * 2) : (r = 0, g = 0), n = k
                     }
 //                  background-ground changed when slides
-                    console.log(k);
                  	setTimeout(function(){
                  		$("#lineTwo").css("background", color[k]);
                  		$(".loginBox").css("background-color", loginColor[k]);  
@@ -136,7 +135,7 @@
                 w("next", i)
             }, b.play), c.data("interval", v))
         })
-    }, a.fn.slides.option = {preload: !1,preloadImage: "/img/loading.gif",container: "slides_container",generateNextPrev: !1,next: "next",prev: "prev",pagination: !0,generatePagination: !0,prependPagination: !1,paginationClass: "pagination",currentClass: "current",fadeSpeed: 350,fadeEasing: "",slideSpeed: 350,slideEasing: "",start: 1,effect: "slide",crossfade: !1,randomize: !1,play: 0,pause: 0,hoverPause: !1,autoHeight: !1,autoHeightSpeed: 350,bigTarget: !1,animationStart: function() {
+    }, a.fn.slides.option = {preload: !1,preloadImage: "#",container: "slides_container",generateNextPrev: !1,next: "next",prev: "prev",pagination: !0,generatePagination: !0,prependPagination: !1,paginationClass: "pagination",currentClass: "current",fadeSpeed: 350,fadeEasing: "",slideSpeed: 350,slideEasing: "",start: 1,effect: "slide",crossfade: !1,randomize: !1,play: 0,pause: 0,hoverPause: !1,autoHeight: !1,autoHeightSpeed: 350,bigTarget: !1,animationStart: function() {
         },animationComplete: function() {
         },slidesLoaded: function() {
         }}, a.fn.randomize = function(b) {

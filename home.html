@@ -3,12 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>资源中心</title>
-		<!--<link rel="stylesheet" href="css/flat-ui.css"/>-->
 		<link rel="stylesheet" href="css/home.css"/>
 		<link rel="stylesheet" href="css/slides.css"/>
-		<script type="text/javascript" language="javascript" src="http://www.5xsj.net/jquery/jquery/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="js/slides.jquery.js"></script>
-		<script type="text/javascript" src="js/home.js" ></script>
+		<link rel="shortcut icon" href="pageicon.png"/>
 	</head>
 	<body>
 		<div id="lineOne">
@@ -34,9 +31,9 @@
 				<div class="loginBox">
 					<div id="userSelect">
 						<ul>
-							<li style="background-color: #16A085;">教师</li>
-							<li>学生</li>
-							<li style="letter-spacing: 0px;">管理者</li>
+							<li class="userli">教师</li>
+							<li class="userli">学生</li>
+							<li class="userli" id="managerli">管理者</li>
 						</ul>
 					</div>
 					<div class="loginInfo">
@@ -102,4 +99,7 @@
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript" language="javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/slides.jquery.js"></script>
+	<script type="text/javascript" src="js/home.js" ></script>
 </html>

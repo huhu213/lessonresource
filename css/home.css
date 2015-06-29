@@ -3,8 +3,6 @@
 	margin:0px auto;padding:0px;
 	font-family: "微软雅黑";
 }
-/*body/*{text-align:center;}*/*/
-
 
 #lineOne{
 	width:auto;
@@ -89,9 +87,7 @@
 	float: left;
 	background-color: #123587;
 }
-.loginBtn{
-	/*background-color: #123587;*/
-}
+
 .inputContainer{
 	position: relative;
 }
@@ -109,7 +105,7 @@
 	margin:0px 15px;
 }
 
-#userSelect li{
+.userli{
 	background-color: #CCCCCC;
 	color: #FFFFFF;
 	width: 98px;
@@ -124,6 +120,13 @@
 	letter-spacing: 14px;
 	text-indent: 5px;
 	cursor: pointer;
+}
+
+#managerli{
+	letter-spacing: 3px;
+}
+.userActive{
+	background-color: #16A085;
 }
 
 .loginInfo{
@@ -194,6 +197,7 @@
 	color: #FFFFFF;
 	border-radius: 5px;
 	padding-top: 5px;
+	cursor: pointer;
 }
 .videoBox{
 	width: 428px;
@@ -205,7 +209,7 @@
 .textBox{
 	width: 380px;
 	height: 349px;
-	margin: 5px 5px;
+	margin: 5px 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 	float: left;
 }
 .textContent{
