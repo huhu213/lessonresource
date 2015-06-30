@@ -3,6 +3,36 @@
 	margin:0px auto;padding:0px;
 	font-family: "微软雅黑";
 }
+#rollLine{
+	height: 30px;
+	width: auto;
+}
+
+.rollBox{
+	width: auto;
+	height: 30px;
+	background-color: #EDEDED;
+	border: 1px solid #C1C0C0;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+.rollBox a{
+	color: #000000;
+	line-height: 30px;
+/*	display: none;*/
+}
+.rollBox a:link{
+	color: #000000;
+	text-decoration: none;
+}
+.rollBox a:hover{
+	color: #16A085;
+	text-decoration: none;
+}
+.rollBox a:active{
+	color: #16A085;
+}
 
 #lineOne{
 	width:auto;
