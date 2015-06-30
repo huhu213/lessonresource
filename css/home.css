@@ -17,10 +17,13 @@
 	font-family: "微软雅黑";
 }
 
+.rollli{
+	text-align: center;
+}
 .rollBox a{
 	color: #000000;
 	line-height: 30px;
-/*	display: none;*/
+	text-align: center;
 }
 .rollBox a:link{
 	color: #000000;
@@ -292,7 +295,7 @@
 	padding-top: 20px;
 }
 .staticticContent a{
-	color: #16A085;
+	color: #FF0000;
 }
 
 .footBox{
