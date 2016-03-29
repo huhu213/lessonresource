@@ -5,6 +5,7 @@ function tabSlide(){
 	tablist.eq(0).addClass("userActive");
 	tablist.each(function(i){
 		tablist.eq(i).click(function(){
+			console.log(i);
 			tablist.eq(i).addClass("userActive");
 			tablist.eq((i+1)%len).removeClass("userActive");
 			tablist.eq((i-1)%len).removeClass("userActive");
